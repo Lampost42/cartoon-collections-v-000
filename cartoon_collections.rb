@@ -3,7 +3,7 @@ array.each_with_index {|dwarf, i| puts "#{i + 1}. #{dwarf}\n"}
 end
 
 def summon_captain_planet# code an argument here
-  # Your code here
+  
 end
 
 def long_planeteer_calls# code an argument here
