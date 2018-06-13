@@ -3,7 +3,7 @@ array.each_with_index {|dwarf, i| puts "#{i + 1}. #{dwarf}\n"}
 end
 
 def summon_captain_planet(array)
-  array.collect! {|element| "#{element.upcase_first}!"}
+  array.collect! {|element| "#{element.capitalize}!"}
 end
 
 def long_planeteer_calls# code an argument here
